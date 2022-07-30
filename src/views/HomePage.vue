@@ -9,6 +9,10 @@
   <Feature />
   <!-- Benefits 1 -->
   <BenefitOne />
+  <!-- Benefits 2 -->
+  <BenefitTwo />
+  <!-- Properties -->
+  <Properties />
 
 </template>
 
@@ -17,4 +21,6 @@
   import Hero from "@/components/Hero.vue";
   import Feature from "@/components/Feature.vue";
   import BenefitOne from "@/components/BenefitOne.vue";
+  import BenefitTwo from "@/components/BenefitTwo.vue";
+  import Properties from "@/components/Properties.vue";
 </script>
