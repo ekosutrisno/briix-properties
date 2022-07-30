@@ -11,9 +11,9 @@
         <path d="M24.3665 19.1602V16.7125H19.6172V32H24.3665V25.6976C24.3665 23.5261 25.1966 20.2122 29.9832 21.1146V16.6418C24.8051 15.9399 24.3665 19.1602 24.3665 19.1602Z" fill="#333333"/>
     </g>
     <defs>
-        <clip-path id="clip0_1742_14396">
+        <clipPath id="clip0_1742_14396">
             <rect width="64.8" height="32" fill="white"/>
-        </clip-path>
+        </clipPath>
     </defs>
 </svg>
 </template>
