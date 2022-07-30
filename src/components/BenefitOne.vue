@@ -1,5 +1,5 @@
 <template>
-  <section class="h-[609px] bg-briix-white briix-container">
+  <section class="lg:h-[609px] bg-briix-white briix-container">
     <div class="grid grid-cols-3 py-20">
       <div class="col-span-1">
         <IllustrationThree />
