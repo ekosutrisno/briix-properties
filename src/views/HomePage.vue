@@ -13,7 +13,10 @@
   <BenefitTwo />
   <!-- Properties -->
   <Properties />
-
+  <!-- Fixed Income -->
+  <FixedIncome />
+  <!-- Footer -->
+  <Footer />
 </template>
 
 <script setup lang="ts">
@@ -23,4 +26,6 @@
   import BenefitOne from "@/components/BenefitOne.vue";
   import BenefitTwo from "@/components/BenefitTwo.vue";
   import Properties from "@/components/Properties.vue";
+  import FixedIncome from "@/components/FixedIncome.vue";
+  import Footer from "@/components/Footer.vue";
 </script>

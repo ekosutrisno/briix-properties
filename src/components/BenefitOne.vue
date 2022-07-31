@@ -1,24 +1,24 @@
 <template>
-  <section class="lg:h-[609px] bg-briix-white briix-container">
-    <div class="grid grid-cols-3 py-20">
-      <div class="col-span-1">
-        <IllustrationThree />
+  <section class="lg:h-[609px] bg-briix-white lg:briix-container px-5">
+    <div class="grid lg:grid-cols-3 pb-20 lg:pb-0 lg:py-20">
+      <div class="lg:col-span-1 mx-auto -mt-20 lg:mt-0">
+        <IllustrationThree class="w-[214px] lg:w-auto"/>
       </div>
-      <div class="col-span-2 px-20">
-        <h1 class="text-briix-black text-[40px] font-semibold font-manrope">Direct Property Investment</h1>
-        <p class="mt-4 font-inter font-normal text-xl text-briix-grey-6 leading-[30px]">Briix provides a wide range of property investments for investors looking to <br> increase their real estate asset portfolio.</p>
+      <div class="lg:col-span-2 lg:px-20 -mt-20 lg:mt-0">
+        <h1 class="text-briix-black text-2xl lg:text-[40px] font-semibold font-manrope">Direct Property Investment</h1>
+        <p class="mt-4 font-inter font-normal text-base lg:text-xl text-briix-grey-6 leading-[22px] lg:leading-[30px]">Briix provides a wide range of property investments for investors looking to <br class="hidden lg:block"> increase their real estate asset portfolio.</p>
         
-        <div class="grid grid-cols-2 gap-6 mt-12">
-          <div class="h-[76px] bg-briix-white ring-1 ring-briix-grey-2 rounded-lg p-4 grid grid-cols-6 items-center">
+        <div class="grid lg:grid-cols-2 gap-y-4 lg:gap-6 mt-4 lg:mt-12">
+          <div class="lg:h-[76px] bg-briix-white ring-1 ring-briix-grey-2 rounded-lg p-4 grid grid-cols-6 items-center">
               <div class="col-span-1">
                 <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M20.2963 23.1666V4.20368C20.2963 2.89456 19.235 1.83331 17.9259 1.83331H6.07405C4.76493 1.83331 3.70368 2.89456 3.70368 4.20368V23.1666M20.2963 23.1666L22.6666 23.1666M20.2963 23.1666H14.3703M3.70368 23.1666L1.33331 23.1666M3.70368 23.1666H9.62961M8.44442 6.57403H9.62961M8.44442 11.3148H9.62961M14.3703 6.57403H15.5555M14.3703 11.3148H15.5555M9.62961 23.1666V17.2407C9.62961 16.5861 10.1602 16.0555 10.8148 16.0555H13.1852C13.8397 16.0555 14.3703 16.5861 14.3703 17.2407V23.1666M9.62961 23.1666H14.3703" stroke="#1F9ED3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
               </div>
-              <div class="font-inter col-span-5 text-base font-medium leading-[22px] text-briix-body">Build your physical property portfolio</div>
+              <div class="font-inter col-span-5 text-sm lg:text-base font-normal lg:font-medium leading-[22px] text-briix-body">Build your physical property portfolio</div>
           </div>
 
-          <div class="h-[76px] bg-briix-white ring-1 ring-briix-grey-2 rounded-lg p-4 grid grid-cols-6 items-center">
+          <div class="lg:h-[76px] bg-briix-white ring-1 ring-briix-grey-2 rounded-lg p-4 grid grid-cols-6 items-center">
               <div class="col-span-1">
                 <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M28.5816 15.2505C27.5793 14.2482 25.9485 14.2482 24.9464 15.2505L20.5108 19.686C20.3423 19.2687 20.0674 18.9057 19.7198 18.6303C22.0045 17.3286 23.5485 14.8705 23.5485 12.0582C23.5485 7.89062 20.1579 4.5 15.9903 4.5C11.8227 4.5 8.43209 7.89062 8.43209 12.0582C8.43209 13.7957 9.02177 15.3979 10.011 16.6759C9.80479 16.6824 9.59787 16.6996 9.39068 16.7292C8.19219 16.9004 7.10625 17.4434 6.25021 18.2995L3.21948 21.3302C2.91414 21.6355 2.91414 22.1306 3.21948 22.4359C3.52482 22.7413 4.01987 22.7413 4.32521 22.4359L7.35599 19.4052C8.60125 18.16 10.5493 17.8817 12.0933 18.7284C13.1791 19.3238 14.4075 19.6385 15.6458 19.6385H18.1268C18.6819 19.6385 19.1335 20.0902 19.1335 20.6453C19.1335 21.2004 18.6819 21.652 18.1268 21.652H14.7352C14.3034 21.652 13.9533 22.0021 13.9533 22.4339C13.9533 22.8657 14.3034 23.2158 14.7352 23.2158H18.1268C18.8109 23.2158 19.4329 22.9467 19.894 22.5093L19.8964 22.5118L26.0521 16.3561C26.4446 15.9635 27.0833 15.9636 27.4758 16.3561C27.8683 16.7486 27.8683 17.3873 27.4744 17.7813L21.1729 24.1166C20.3186 24.9754 19.1341 25.4679 17.9228 25.4679H13.7546C12.014 25.4679 10.3639 26.0569 9.03195 27.1406C8.69701 27.4131 8.69935 27.9119 9.00469 28.2172C9.31003 28.5226 9.80232 28.5177 10.1446 28.2544C11.1757 27.4612 12.4322 27.0316 13.7547 27.0316H17.9229C19.5472 27.0316 21.136 26.3711 22.2816 25.2194L28.5816 18.8857C29.5839 17.8835 29.5839 16.2527 28.5816 15.2505ZM15.9903 18.0527C12.6849 18.0527 9.99578 15.3636 9.99578 12.0582C9.99578 8.75286 12.6849 6.0638 15.9903 6.0638C19.2956 6.0638 21.9847 8.75292 21.9847 12.0583C21.9847 15.3636 19.2956 18.0527 15.9903 18.0527Z" fill="#1F9ED3"/>
@@ -26,25 +26,25 @@
                   <path d="M17.3548 10.161C17.5357 10.3696 17.8515 10.392 18.0601 10.211C18.2687 10.03 18.2911 9.71422 18.1101 9.50565L17.3548 10.161ZM14.6452 13.5056C14.4643 13.2971 14.1485 13.2747 13.9399 13.4557C13.7313 13.6367 13.7089 13.9524 13.8899 14.161L14.6452 13.5056ZM16.5 8.5C16.5 8.22386 16.2761 8 16 8C15.7239 8 15.5 8.22386 15.5 8.5H16.5ZM15.5 15.1667C15.5 15.4428 15.7238 15.6667 16 15.6667C16.2761 15.6667 16.5 15.4428 16.5 15.1667L15.5 15.1667ZM16 11.3333C15.5327 11.3333 15.1322 11.2061 14.8631 11.0268C14.5906 10.8451 14.5 10.649 14.5 10.5H13.5C13.5 11.0874 13.8571 11.558 14.3084 11.8588C14.7632 12.162 15.3628 12.3333 16 12.3333V11.3333ZM14.5 10.5C14.5 10.351 14.5906 10.1549 14.8631 9.97322C15.1322 9.79385 15.5327 9.66667 16 9.66667V8.66667C15.3628 8.66667 14.7632 8.83796 14.3084 9.14117C13.8571 9.44205 13.5 9.91262 13.5 10.5H14.5ZM16 9.66667C16.637 9.66667 17.1282 9.89986 17.3548 10.161L18.1101 9.50565C17.6451 8.96974 16.8436 8.66667 16 8.66667V9.66667ZM16 12.3333C16.4673 12.3333 16.8678 12.4605 17.1369 12.6399C17.4094 12.8216 17.5 13.0177 17.5 13.1667H18.5C18.5 12.5793 18.1429 12.1087 17.6916 11.8078C17.2367 11.5046 16.6372 11.3333 16 11.3333V12.3333ZM15.5 8.5V9.16667H16.5V8.5H15.5ZM15.5 14.5L15.5 15.1667L16.5 15.1667L16.5 14.5L15.5 14.5ZM16 14C15.3631 14 14.8718 13.7668 14.6452 13.5056L13.8899 14.161C14.3549 14.6969 15.1564 15 16 15L16 14ZM17.5 13.1667C17.5 13.3157 17.4094 13.5118 17.1369 13.6935C16.8678 13.8728 16.4673 14 16 14V15C16.6372 15 17.2368 14.8287 17.6916 14.5255C18.1429 14.2246 18.5 13.754 18.5 13.1667H17.5ZM15.5 9.16667L15.5 14.5L16.5 14.5L16.5 9.16667L15.5 9.16667Z" fill="#1F9ED3"/>
                 </svg>
               </div>
-              <div class="font-inter col-span-5 text-base font-medium leading-[22px] text-briix-body">Receive guaranteed yields from our leasing solutions</div>
+              <div class="font-inter col-span-5 text-sm lg:text-base font-normal lg:font-medium leading-[22px] text-briix-body">Receive guaranteed yields from our leasing solutions</div>
           </div>
 
-          <div class="h-[76px] bg-briix-white ring-1 ring-briix-grey-2 rounded-lg p-4 grid grid-cols-6 items-center">
+          <div class="lg:h-[76px] bg-briix-white ring-1 ring-briix-grey-2 rounded-lg p-4 grid grid-cols-6 items-center">
               <div class="col-span-1">
                 <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M12 23.1667V20.5M16 23.1667V17.8333M20 23.1667V15.1667M22.6667 28.5H9.33335C7.86059 28.5 6.66669 27.3061 6.66669 25.8333V7.16667C6.66669 5.69391 7.86059 4.5 9.33335 4.5H16.7811C17.1347 4.5 17.4738 4.64048 17.7239 4.89052L24.9428 12.1095C25.1929 12.3595 25.3334 12.6987 25.3334 13.0523V25.8333C25.3334 27.3061 24.1394 28.5 22.6667 28.5Z" stroke="#1F9ED3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
               </div>
-              <div class="font-inter col-span-5 text-base font-medium leading-[22px] text-briix-body">Unique risk sharing ownership</div>
+              <div class="font-inter col-span-5 text-sm lg:text-base font-normal lg:font-medium leading-[22px] text-briix-body">Unique risk sharing ownership</div>
           </div>
 
-          <div class="h-[76px] bg-briix-white ring-1 ring-briix-grey-2 rounded-lg p-4 grid grid-cols-6 items-center">
+          <div class="lg:h-[76px] bg-briix-white ring-1 ring-briix-grey-2 rounded-lg p-4 grid grid-cols-6 items-center">
               <div class="col-span-1">
                 <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M12 16.5L14.6667 19.1667L20.6667 13.8334M27.4907 8.47869C23.2748 8.70257 19.1423 7.24484 16 4.42535C12.8577 7.24484 8.7252 8.70257 4.50934 8.47869C4.17005 9.79217 3.9989 11.1434 4.00001 12.5C4.00001 19.9547 9.09867 26.22 16 27.996C22.9013 26.22 28 19.956 28 12.5C28 11.1107 27.8227 9.76402 27.4907 8.47869Z" stroke="#1F9ED3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
               </div>
-              <div class="font-inter col-span-5 text-base font-medium leading-[22px] text-briix-body">All legal and financial concerns managed by our affiliates</div>
+              <div class="font-inter col-span-5 text-sm lg:text-base font-normal lg:font-medium leading-[22px] text-briix-body">All legal and financial concerns managed by our affiliates</div>
           </div>
         </div>
       </div>
